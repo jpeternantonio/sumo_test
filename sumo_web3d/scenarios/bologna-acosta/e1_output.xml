@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-31 23:54:28 by Eclipse SUMO sumo Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined_buslanes.net.xml"/>
+        <route-files value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined.rou.xml,/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined_busses.rou.xml"/>
+        <additional-files value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined_bus_stops.add.xml,/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined_detectors.add.xml,/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined_vtypes.add.xml,/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/joined_tls.add.xml,/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/acosta-poly.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/tripinfos.xml"/>
+        <save-state.prefix value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/state"/>
+    </output>
+
+    <report>
+        <log value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <phemlight-path value="/Users/peterantonio/bup_sumo3d/sumo_web3d/server/../scenarios/bologna-acosta/./PHEMlight/"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="52993"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
